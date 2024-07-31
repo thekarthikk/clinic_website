@@ -1,38 +1,841 @@
-.App {
+*{
+  margin: 0;
+  border: Border-box;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+/* social media css */
+
+.icons{
+  height: 3rem;
+  width: 100%;
+  background-color: #00e499;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.left-container{
+  display: flex;
+  margin-left: 15rem;
+}
+.sub-container{
+  font-size: 1.8rem;
+  display: flex;
+  color:  #eafff8;
+  font-size: 2rem;
+  margin-top: .5rem;
+  margin-left: -10rem;
+}
+.sub-container h6{
+  font-size: 1.8rem;
+}
+.right-container{
+  font-size: 1.8rem;
+  color: #eafff8;
+  margin-left: 45%;
+}
+.icon-container{
+  display: flex;
+  justify-content: space-evenly;
+  width:10rem;
+  cursor: pointer;
+}
+
+/* navbar css */
+
+#navbarNavDropdown{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: black;
+  margin-left: 20rem;
+}
+#navbarNavDropdown a{
+  color: black;
+}
+.navbar-nav li a{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.button{
+  margin-right: 4rem;
+}
+.bmical{
+  font-size: 1.5rem;
+  color: white;
+  background-color: #00e499;
+  border: none;
+  border-radius: .5rem;
+}
+
+/*  main content css */
+.content-container{
+  height: 30rem;
+  width: 100%;
+  background-image: url('./Images/doc_image.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+.text {
+  height: 25rem;
+  width: 35rem;
+  margin-left: 10rem;
+  padding: 5rem;
+}
+.text h2{
+  color: #00e499;
+  width: 15rem ;
+  font-size: 2.5rem;
+}
+.text h6{
+  color: #00e499;
+  
+}
+#paragraph{
+  color: white;
+}
+.button1{
+  font-size: 1.5rem;
+  background-color: #00e499;
+  border: none;
+  border-radius: .5rem;
+  color: white;
+
+}
+.button2{
+  font-size: 1.5rem;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: .5rem;
+  color: #00e499;
+  margin-left: 1.1rem;
+  margin-top: 2rem;
+}
+.heading{
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.boxs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box{
+  display: flex;
+  height: 15rem;
+  width: 60rem;
+}
+.box1{
+  height: 100%;
+  width: 25%;
+  background-color: #0EFFB0 ;
+  color: black;
+  text-align: center;
+}
+.parentime{
+  display: flex;
+  margin-left: 1rem;
+}
+.childay p{
+  margin-top: .5rem;
+  text-align: left;
+  border-bottom: 2px solid black;
+  width: 120%;
+}
+.childtime p{
+  text-align: right;
+  margin-left: .8rem;
+  margin-top: .5rem;
+  border-bottom: 2px solid black;
+}
+.secparent{
+  display: flex;
+  margin-left: 1rem;
+}
+.childone p{
+  text-align: left;
+}
+.childtwo p{
+  text-align: right;
+  margin-left: 5rem;
+}
+
+.box2{
+  height: 100%;
+  width: 25%;
+  background-color: #00E499;
+}
+.box2 p{
+  margin-top: 1.5rem;
+  text-align: center;
+}
+.main-but{
+  display: flex;
+  justify-content: center;
+}
+.appointbut{
+  font-size: 1rem;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: .5rem;
+  color: white;
+}
+.box3{
+  height: 100%;
+  width: 25%;
+  background-color: #00BB7E ;
+}
+.box3 p{
+  margin-top: 1.5rem;
+  text-align: center;
+}
+.box4{
+  height: 100%;
+  width: 25%;
+  background-color: #00593D ;
+}
+.box4 h5{
+  margin-top: 1.5rem;
+  text-align: center;
+}
+.box4 p{
+  margin-top: 1.5rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* About doctor component css */
+.fc-container{
+  margin-top: 15rem;
+  height: 28rem;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.fc-sub-container{
+  height: 28rem;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fc-right{
+  height: 25rem;
+  width: 40rem;
+  background-color: aqua;
+  background-image: url('./Images/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-left-radius:.5rem;
+  border-bottom-left-radius:.5rem;
+}
+.fc-right img{
+  height: 25rem;
+  width: 40rem;
+  margin-left: -12rem;
+}
+.fc-left{
+  height: 25rem;
+  width: 55rem;
+  background-color: #00e499;
+  padding: 1.5rem;
+  border-top-right-radius:.5rem;
+  border-bottom-right-radius:.5rem;
+}
+.fc-left h5{
+  color: white;
+  margin-top: 2rem;
+}
+.fc-left h2{
+  color: #00593d;
+  margin-top: 1.5rem;
+}
+.fc-left ul li {
+  font-size: .8rem;
+  margin-top: 1rem;
+  color: white;
+  width: 85%;
+}
+#but1{
+  background-color:#00593d;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: .5rem;
+  color: white;
+}
+#but2{
+  background-color:transparent;
+  font-size: 1.2rem;
+  border: 2px solid white;
+  border-radius: .5rem;
+  color: white;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+/* medical service css */
+
+.ms-container{
+  height: 30rem;
+  width: 100%;
+}
+.ms-text h1{
+  text-align: center;
+  color: #00593d;
+}
+.msh6{
+  text-align: center;
+  color: #00e499;
+}
+
+.cards{
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+  margin-left: 5rem;
+  flex-wrap: wrap;
+}
+.card{
+  width: 14rem;
+  box-shadow: 0 .5px grey;
+}
+.card-img-top{
+  height: 4rem;
+  width: 4rem;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: #00BB7E;
+  margin: auto;
+  display: block;
+  margin-top: 2rem;
+}
+.card-title{
+  font-size: .8rem;
+  font-weight: bold;
+  color: #00593d;
+}
+
+.card-text{
+  font-size: .5rem;
+  color: #00e499;
+  text-align: center;
+
+}
+
+/* Online con css */
+
+.oc-text{
+  display: flex;
+}
+.horizonal{
+  height: 1rem;
+  width: 15rem;
+  border: 5px solid #2EFFBA;
+  background-color: #2EFFBA;
+  border-radius: 10px;
+}
+.oc-text h1{
+  margin-left: .5rem;
+  color: #023b28;
+}
+.oc-sub-container{
+  display: flex;
+  justify-content: center;
+}
+.oc-inner{
+  height: 28rem;
+  width: 75%;
+  display: flex;
+  margin-top: 2rem;
+  border: 1px solid white;
+  border-radius: 2rem;
+}
+.oc-left{
+  height: 100%;
+  width: 25%;
+  background-color: #3adda7;
+  border-right: 2px solid black;
+}
+.left-inner {
+  margin-top: 7rem;
+}
+.left-inner img{
+  position: absolute;
+  height: 3.5rem;
+  width:  3.5rem;
+  margin-left: 4rem;
+  border-radius: 50%;
+  z-index: 1;
+  margin-top: -1.8rem;
+}
+.left-inner p {
+ margin-left: 2rem;
+ color: white;
+ margin-top: 2rem;
+ cursor: pointer;
+}
+#zoom{
+  margin-top: .8rem;
+}
+.timefiled , .videocam{
+  font-size: 1.5rem;
+}
+.left-inner h4{
+  margin-left: 2rem;
+  margin-top: -.8rem;
+  color: #00593D;
+ }
+ .horizon{
+  margin-top: 6rem;
+  border:  2px solid black;
+ }
+.oc-middle{
+  height: 100%;
+  width: 45%;
+  background-color: #3adda7;
+}
+.oc-middle h5{
+  margin-top: 3rem;
+  margin-left: 1.5rem;
+}
+.month{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.days {
+  padding: 10px 0;
+}
+
+  .days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    background-color: transparent;
+    padding: .6rem;
+  }
+
+.oc-right{
+  height: 100%;
+  width: 25%;
+  background-color: #3adda7;
+  border-left: 2px solid black;
+}
+.oc-right h5{
+  margin-top: 3rem;
+  margin-left: 1.5rem;
+}
+.time button{
+  height: 2.5rem;
+  width: 80%;
+  background-color: transparent;
+  margin-left: 1.5rem;
+  margin-top: .8rem;
+  border-radius: .5rem;
+  font-size: 1.2rem;
+}
+:hover.time button{
+  background-color: black;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+/* 
+Video  component css  */
+
+.v-container{
+  height: 30rem;
+  width: 100%;
+  margin-top: 5rem;
+  display: flex;
+}
+.v-text{
+  height: 100%;
+  width: 50%;
+}
+.videotext {
+  height: 25rem;
+  width: 35rem;
+  margin-left: 7rem;
+  padding: 5rem;
+}
+.videotext h1{
+  color: #00593D;
+  width: 25rem ;
+  font-size: 2.5rem;
+}
+.videotext h5{
+  color: #00E499;
+  
+}
+.videotext ul li {
+  font-size: .9rem;
+  color: black;
+  margin-top: 1.2rem;
+}
+.v-video{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 6rem;
+}
+.v-video video {
+  height: 20rem;
+  width: 30rem;
+  background-size: cover;
+  border: 1px solid white;
+  border-radius: 2rem;
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+  z-index: 0;
+  margin-right: 2rem;
+}
+.playicon{
+  position: absolute;
+  font-size: 4rem;
+  color: #00e499;
+  z-index: 1;
+  margin-left: -1rem;
+  background-color: white;
+  border: none;
+  border-radius: 50%;
+}
+/* 
+appointment form css */
+
+.app-container{
+  height: 30rem;
+  width: 100%;
+  margin-top: 3rem;
+  display: flex;
+}
+.app-img img{
+  height: 26rem;
+  width: 40rem;
+  margin-left: 10rem;
+  margin-top: 1rem;
+  background-size: cover;
+  border: 2px solid rgb(211, 195, 195);
+  z-index: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app-form{
+  height: 24.5rem;
+  width: 28rem;
+  background-color: #00E499;
+  margin-top: 1.8rem;
+  margin-left: -4rem;
+  z-index: 1;
+  border-radius: .8rem;
+  color: black;
 }
+.app-text{
+  text-align: center;
+  font-weight: 800;
+  color:white;
+  margin-top: .5rem;
+}
+.app-name{
+  display: flex;
+  margin-left: 1rem;
+  margin: .7rem;
+}
+.firstname input , .lastname input{
+  border: 2px solid black;
+  border-radius: .5rem;
+}
+.email{
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+.email input{
+  height: 2rem;
+  width: 91.5%;
+  border: 2px solid black;
+  border-radius: .5rem;
+}
+.app-date input{
+  border: 2px solid black;
+  width: 12rem;
+  border-radius: .3rem;
+}
+.message{
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+.message textarea{
+  height: 4rem;
+  width: 91.5%;
+  border: 2px solid black;
+  border-radius: .5rem;
+}
+.sendbut{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: .5rem;
+
+}
+.sendbut button{
+  height: 2rem;
+  width: 9.5rem;
+  font-size: 1.1rem;
+  border-radius: 1rem;
+  color: white;
+  background-color:#00593D ;
+    font-weight: bold;
+}
+
+/* blogs css */
+.blog-container{
+  height: 30rem;
+  width: 100%;
+}
+
+.carousel-inner{
+  display: flex;
+  justify-content: center;
+
+}
+.carousel-in{
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 5rem;
+}
+.item{
+  border-radius: 2rem;
+}
+.item img{
+  height: 13rem;
+  width: 13rem;
+  border-radius: 1rem;
+}
+
+/* 
+testimonial css */
+.test-container{
+  height: 30rem;
+  width: 100%;
+}
+.main-carousel{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.carousels{
+  display: flex;
+}
+.tcard{
+  border: 2px solid black;
+  border-radius: 1rem;
+}
+.card img{
+  height: 5rem;
+  width: 5rem;
+}
+.t-card-text{
+  padding: .5rem;
+  margin-top: .5rem;
+  text-align: center;
+  font-size: .7rem;
+}
+.stars{
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  color: goldenrod;
+  margin-top: -.5rem;
+}
+.dots{
+  font-size: 1.5rem;
+  color: #00593D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+/* contact us details css */
+
+.contact-container{
+  height: 30rem;
+  width: 100%;
+  margin-top: 2rem;
+}
+.circleimg{
+  position: absolute;
+  z-index: 1;
+  background-image: url('./Images/docimg1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 20rem;
+  width: 20rem;
+  border: 7px solid #08E59C ;
+  border-radius: 50%;
+  margin-left:10rem ;
+  margin-top: 1rem;
+  background-color: white;
+}
+
+.details{
+  z-index: 0;
+  position: absolute;
+  height: 15rem;
+  width: 90%;
+  background-color: #08E59C;
+  margin-top: 5.5rem;
+  margin-left: 5rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.con-context{
+  height: 100%;
+  width: 50%;
+}
+.con-context h1{
+  margin-top: .5rem;
+  color: #00593D; 
+}
+.contact-num{
+  display: flex;
+  color: white;
+  margin-top: 1.5rem;
+}
+.con-context h5{
+  font-size: 1.2rem;
+  color: white;
+  margin-top: 1rem;
+}
+.con-context p{
+  font-size: .9rem;
+  color: white;
+  margin-top: 1rem;
+}
+#callicon{
+  font-size: 1.5rem;
+}
+
+/* 
+footer css */
+
+.footer-container{
+  border-top-left-radius: 4rem;
+  border-top-right-radius:4rem;
+  border-bottom: 1px solid white;
+  height: 22rem;
+  width: 100%;
+  background-color: #08E59C;
+  display: flex;
+  color: white;
+  margin-top: -2rem;
+}
+.footer-sub{
+  display: flex;
+}
+.footer-left{
+  height: 100%;
+  width: 35%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.subfooter-left{
+  height: 20rem;
+  width: 70%;
+  text-align: left;
+  margin-right: 4rem;
+}
+.subfooter-left p{
+  margin-top: 3rem;
+}
+.footer-left h1{
+  margin-top: 3rem;
+}
+.footer-right{
+  height: 100%;
+  width: 65%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.div1 ,.div2,.div3,.div4{
+  height: 100%;
+  width: 15rem;
+}
+.div1 ,.div2 , .div3 ,.div4 h5 {
+  margin-top: 5rem;
+}
+.div1 h6{
+  margin-top: 2rem;
+}
+.div2 h6{
+  margin-top: 2rem;
+}
+.div3 h6{
+  margin-top: 2rem;
+}
+.div4 h6{
+  margin-top: 2rem;
+}
+/* 
+sub footer .css */
+
+.sub-footer1{
+  height: 4rem;
+  width: 100%;
+  background-color: #00E499;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  color: white;
+}
+.sub-footer1 h6{
+  margin-left: 5rem;
+  margin-bottom: 1rem;
+}
+
+.div11{
+  width: 30%;
+  display: flex;
+}
+.div11 h6{
+  margin-top: 2rem;
+}
+.div11 img{
+  height: 3rem;
+  width: 8rem;
+  margin-top: 1.2rem;
+}
+
+
+
