@@ -112,9 +112,6 @@ body::-webkit-scrollbar {
     height: 3rem;
     margin-top: -.5rem;
   }
-  .navbar-nav li a{
-   
-  }
   .button{
     display: none;
   }
