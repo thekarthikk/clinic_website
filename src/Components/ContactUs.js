@@ -17,7 +17,7 @@ export default function ContactUs() {
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi est sequi unde, totam at, ad praesentium officia tempora animi tenetur modi aut ut?</p>
                 <div className="contact-num">
                 <IoMdCall id='callicon'/>
-                <h6>+91 9810532834</h6>
+                <h6>+91 123456789</h6>
                 </div>
             </div>
         </div>

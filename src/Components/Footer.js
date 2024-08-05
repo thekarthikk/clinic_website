@@ -6,7 +6,7 @@ export default function Footer() {
     <div className="footer-container">
         <div className="footer-left">
             <div className="subfooter-left">
-            <h1>Aloy Mukherjee</h1>
+            <h1>Dr Name</h1>
            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, vero rem delectus ipsam amet eius ducimus harum facere officiis minima eos </p></div>
         </div>
         <div className="footer-right">

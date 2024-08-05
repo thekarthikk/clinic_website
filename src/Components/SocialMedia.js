@@ -6,23 +6,19 @@ import { FaYoutube } from "react-icons/fa";
 import { IoMdCall } from "react-icons/io";
 
 
-export default function SocialMedia(props) {
+export default function SocialMedia() {
   return (
     <>
     <div className="icons">
     <div className="left-container">
-    <div className="sub-container">
-    <IoMdCall/>
-    <h6>+91 9810532834</h6>
-    </div>
+    <div className="callicon"><h2><IoMdCall/></h2></div>
+    <div className="SMnumber"><h2>+91 123456789</h2></div>
     </div>
     <div className="right-container">
-    <div className="icon-container">
-    <FaFacebook />
-    <FaInstagram/>
-    <FaLinkedin/>
-    <FaYoutube/>
-    </div>
+      <div className="facebook"><h2><FaFacebook /></h2></div>
+      <div className="instagram"><h2><FaInstagram/></h2></div>
+      <div className="linkedin"><h2><FaLinkedin/></h2></div>
+      <div className="youtube"><h2><FaYoutube/></h2></div>
     </div>
     </div>
     </>

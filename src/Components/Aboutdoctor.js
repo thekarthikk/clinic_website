@@ -7,12 +7,12 @@ export default function Aboutdoctr() {
     <>
     <div className="fc-container">
        <div className="fc-sub-container">
-       <div className="fc-right">
+       <div className="fc-left">
         <img src={Dr} alt="" />
         </div>
-        <div className="fc-left">
+        <div className="fc-right">
             <h5>About</h5>
-            <h2>Dr Aloy J Mukherjee</h2>
+            <h2>Dr Name ....</h2>
             <ul>
                 <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem labore id sint cupiditate tempora, possimus optio vero consequatur.</li>
                 <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem labore id sint cupiditate tempora, possimus optio vero consequatur m</li>

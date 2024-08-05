@@ -1,17 +1,23 @@
 import React from 'react'
 import { IoMdCall } from "react-icons/io";
+import DocImage from '../Images/doc_image.jpg'
 
 
 export default function Main() {
   return (
     <>
     <div className="content-container">
+      <div className="Main-sub-container">
       <div className="text">
+        <div className="text-subdiv">
         <h6>Welcome To Our Clinic</h6>
         <h2>Take Care Of Your Health</h2>
         <h6 id='paragraph'>Feugiat primis ligula risus auctor egestas augue mauri viverra tortor in iaculis placerat eugiat mauris ipsum in viverra tortor and gravida purus pretium lorem</h6>
+        <div className="buttons-div">
         <button className='button1'>Book Appointment</button>
         <button className='button2'>BMI Calculator</button>
+        </div>
+        </div>   
       </div>
       <div className="boxs">
         <div className="box">
@@ -63,6 +69,7 @@ export default function Main() {
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit nam non  voluptas maiores ex. </p>
           </div>
         </div>
+      </div>
       </div>
     </div>
     </>

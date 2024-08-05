@@ -21,14 +21,14 @@ export default function Medicalservice() {
   <img src={Image4} class="card-img-top" alt="..."/>
   <div class="card-body">
     <h5 class="card-title"><b>Gastric Bypass Surgery</b></h5>
-    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quae, quod laudantium dolores alias, reprehenderit distinctio libero fugiat corrupti corporis necessitatibus veniam, mollitia ipsam numquam consectetur nisi facere minima odio..</p>
+    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quae, quod laudantium dolores alias Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quae, quod laudantium dolores alias</p>
   </div>
 </div>
 <div class="card">
   <img src={Image} class="card-img-top" alt="..."/>
   <div class="card-body">
     <h5 class="card-title">Endoscopic Anorectal Surgery</h5>
-    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit vitae obcaecati quisquam eius maxime repellendus ipsam voluptas expedita doloribus quia repellat praesentium laborum consequatur id quae, corporis necessitatibus! Qui, numquam?</p>
+    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit vitae obcaecati quisquam eius maxime repellendus ipsam voluptas expedita doloribus quia repellat praesentium laborum consequatur id quae, </p>
   </div>
 </div>
 <div class="card" >

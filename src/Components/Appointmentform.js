@@ -9,6 +9,7 @@ export default function () {
             <img src={Consult} alt="" />
         </div>
         <div className="app-form">
+            <div className="app-sub-form">
             <div className="app-text"><h2>Make an Appointment</h2></div>
             <div className="app-name">
                 <div className="firstname">First Name
@@ -33,6 +34,7 @@ export default function () {
             </div>
             <div className="sendbut">
                 <button>Send Message</button>
+            </div>
             </div>
         </div>
     </div>
